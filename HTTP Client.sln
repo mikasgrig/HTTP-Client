@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTTP Client", "HTTP Client\HTTP Client.csproj", "{72D1AA78-66C7-4466-998C-BEBA4675B304}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Work", "Work\Work.csproj", "{5803E331-A2C9-44B7-8BDD-B654871BEB98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTPReqest", "HTTPReqest\HTTPReqest.csproj", "{1A40A2ED-A919-4608-B033-74CA9946DEB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72D1AA78-66C7-4466-998C-BEBA4675B304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D1AA78-66C7-4466-998C-BEBA4675B304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D1AA78-66C7-4466-998C-BEBA4675B304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D1AA78-66C7-4466-998C-BEBA4675B304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5803E331-A2C9-44B7-8BDD-B654871BEB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5803E331-A2C9-44B7-8BDD-B654871BEB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5803E331-A2C9-44B7-8BDD-B654871BEB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5803E331-A2C9-44B7-8BDD-B654871BEB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A40A2ED-A919-4608-B033-74CA9946DEB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A40A2ED-A919-4608-B033-74CA9946DEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A40A2ED-A919-4608-B033-74CA9946DEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A40A2ED-A919-4608-B033-74CA9946DEB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43CAB88C-F84C-4515-A360-6335CF50AAC6}
+	EndGlobalSection
+EndGlobal
