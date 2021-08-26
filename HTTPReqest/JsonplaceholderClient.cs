@@ -35,9 +35,9 @@ namespace HTTPReqest
 
         public Task<IEnumerable<TodoResponseModel>> GetTodosByStatus(int id, bool isCompleted)
         {
-            var isCompletedString = Convert.ToString(isCompleted).ToLower();
             
-            string url = $"/todos?userId={id}&completed={isCompletedString}";
+            
+            string url = $"/todos?userId={id}&completed={isCompleted.ToString().ToLower()}";
             return _httpClient.GetFromJsonAsync<IEnumerable<TodoResponseModel>>(url);
         }
 
